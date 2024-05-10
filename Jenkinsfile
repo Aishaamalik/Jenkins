@@ -7,6 +7,7 @@ pipeline {
                 // Run Python script directly without using nohup
                 bat 'python hello.py'
             }
-        }
-    }
+        }
+    }
 }
+
