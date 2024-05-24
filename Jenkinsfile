@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'python3 hello.py'
+                sh 'gcloud compute zones list'
             }
         }
     }
